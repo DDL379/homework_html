@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      .table-1 {
+        margin-top: 20px;
+        width: 100%;
+        text-align: left;
+      }
+      .box-1 {
+        width: 50%;
+        border: solid 1px black;
+        padding: 10px;
+        border-radius: 5px;
+      }
+      .select-1 {
+        width: 30%;
+        margin-left: 4px;
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <p>
+        <a href="/index.html">Home</a> |
+        <a href="/education.html">Education</a> |
+        <a href="/work.html">Work Experience</a> |
+        <a href="/contact.html">Contact Me</a> |
+      </p>
+    </div>
+    <hr />
+    <h1>Contact Me</h1>
+    <div class="box-1">
+      <form action="">
+        <h4>Enter your info..</h4>
+        <div class="table-1">
+          <label for="">Your Name</label> <input type="text" />
+        </div>
+        <div class="table-1">
+          <label for="">Your Email</label> <input type="email" />
+        </div>
+        <div class="table-1">
+          <label for="">Gender</label>
+          <select class="select-1">
+            <option disabled selected></option>
+            <option>Men</option>
+            <option>Female</option>
+          </select>
+        </div>
+        <div class="table-1">
+          <label for="">Your Message</label> <br />
+          <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
+        <br />
+        <div>
+          <input type="submit" value="Send" />
+          <input type="reset" value="Reset" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
